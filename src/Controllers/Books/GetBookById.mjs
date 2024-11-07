@@ -1,6 +1,6 @@
 import { connectToDatabase } from "../../Db/DbConnection.mjs";
 
-export const GetBook = async (req, res) => {
+export const GetBookById = async (req, res) => {
   const { id } = req.params;
   let connection;
 
